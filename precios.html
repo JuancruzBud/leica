@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.ico"/>
+    <title>Invie - Guitarras invisibles!</title>
+    <link rel="stylesheet" href="leica.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header id="header" class="header background"> <!-- logo - menu -->
+      <div class="document">
+        <div class="hover">
+            <figure class="logotipo"> <!-- logotipo -->
+              <img src="images/logo.png" width="100" height="100" alt="Leica Logo"/>
+            </figure>
+          </div>
+        <nav class="menu"> <!-- menu -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#contenido">Camaras</a>
+            </li>
+            <li>
+              <a href="precios.html">Espesificaciones</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<section class="table">
+  <div class="document">
+    <table>
+    <thead>
+      <tr>
+        <th>Modelo</td>
+          <th>Precio</td>
+            <th>Descripción</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Leica M</td>
+              <td>$ 4500</td>
+              <td>
+                <li>Estilo vintage</li>
+                <li>Sensor CMOS de alta resolución</li>
+                <li>Grabación de vídeo Full HD</li>
+              </td>
+            </tr>
+            <tr>
+              <td>Leica M9</td>
+              <td>$ 4500</td>
+              <td>
+                <li>Estilo vintage</li>
+                <li>Sensor CMOS de alta resolución</li>
+                <li>Grabación de vídeo Full HD</li>
+              </td>
+            </tr>
+            <tr>
+              <td>Leica M8</td>
+              <td>$ 4500</td>
+              <td>
+                <li>Estilo vintage</li>
+                <li>Sensor CMOS de alta resolución</li>
+                <li>Grabación de vídeo Full HD</li>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+
+    <footer class="footer">
+      <div class="document">
+        <div class="contacto"> <!-- img tel email -->
+          <img src="images/logo-footer.png" alt="Logo Footer"/>
+          <a href="tel:+3586023603"><strong>Telefono</strong> <span>3586023603</span></a>
+          <a href="mailto: cont@leica.com"><strong>E-mail</strong> <span>cont@leica.com</span></a>
+        </div>
+        <form class="formulario">  <!-- formulario -->
+          <div class="columna1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"/>Mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"/>Hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion"name="intereses" value="intereses"/>Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos"name="reclamos"value="reclamos"/>Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios"name="comentarios"value="comentarios"/>Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros"name="otros"value="otros"/>Otros
+              </label>
+            </div>
+          </div>
+          <div class="columna2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" rows="7" cols="30" placeholder="Escribe algo..."></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

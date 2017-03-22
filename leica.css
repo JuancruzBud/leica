@@ -1,0 +1,285 @@
+/*{
+  padding: 10px;
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding: 10px 13px 5px 15px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-right: 13px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin: 10px 13px 5px 15px;
+}*/
+
+.background{
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Allerta", sans-serif;
+  margin: 0;
+}
+.document{
+width: 800px;
+margin: auto;
+position: relative;
+}
+html {
+  overflow-y: scroll;
+ }
+.header{
+  position: relative;
+}
+.menu{
+  font-size: 21px;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+}
+.menu ul{
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li::before{
+  content:'∘';
+  line-height: 0;
+  font-size:20px;
+  color: white;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: #ed1c24;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.hover{
+  display: inline-block;
+  margin:10px 0 10px 0;
+  width: 100px;
+  height: 100px;
+}
+.logotipo {
+  margin: 0;
+  cursor: pointer;
+ border-radius: 50px;
+ background: none;
+ /*overflow: hidden;*/
+}
+
+.hover figure img {
+  -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+.hover figure:hover img {
+
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+
+.portada {
+  height: 480px;
+  padding: 0 30px 0 30px;
+}
+.titulo{
+  margin-bottom: 0;
+
+}
+.subtitulo{
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.button{
+  border-radius: 21px;
+  background: #ed1c24;
+  color:white;
+  text-decoration: none;
+  padding: 10px 12px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+.button1{
+  background: #ed1c24;
+  color:white;
+}
+.button1:hover {
+  background: white;
+  color: #ed1c24;
+}
+.titulo_contenido{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contenido{
+  color: #494539;
+}
+
+.guitarras{
+  height: 180px;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+border: 1px solid #494539;
+border-radius: 16px;
+}
+.guitarras.segunda{
+  margin-bottom: 60px;
+}
+
+.guitarra_a{
+float: right;
+position: relative;
+top:-40px;
+}
+
+.guitarra_b{
+float: left;
+position: relative;
+top:-40px;
+}
+
+.cont_guitarra_a{
+padding-left: 30px;
+}
+.gb{
+  width: 50%;
+  float: left;
+}
+.cont_guitarra_b{
+  width: 50%;
+  float: right;
+}
+.guitarras ol{
+  padding: 0;
+  margin-top: 10px;
+}
+
+.titulo{
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.subtitulo{
+  font-size: 24px;
+  color: white;
+}
+.titulo_contenido h2{
+  font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.titulo_g {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #756e5b;
+
+}
+.footer .document{
+  display: flex;
+  justify-content: space-between;
+  height: 240px;
+}
+.contacto{
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 0px;
+}
+.contacto img{
+display: block;
+margin: 0 20px 0 20px;
+}
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+.contacto strong{
+  display: block;
+}
+.formulario{
+  display: flex;
+  width: 430px;
+  color: white;
+  padding: 40px 10px;
+}
+.columna1, .columna2{
+  display: flex;
+  flex-direction: column;
+    height: 180px;
+}
+.columna1{
+  margin-right: 15px;
+}
+.columna2 {
+  align-items: flex-start;
+}
+.columna2 textarea{
+  margin-bottom: 10px;
+}
+.intereses label {
+  font-size: 12px;
+}
+
+}
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+  .sexo {
+    margin-top: 10px;
+  }
+
+  }
+  .columna2 input
+  {
+    font-weight: bold;
+  }
+
+  table{
+    width: 100%
+  }
+
+  th{
+    background:#ed1c24;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+  }
+td{
+  padding: 20px;
+}
+table, td, th{
+  border: 1px solid #ed1c24;
+  border-collapse: collapse;
+}
+
+table{
+  margin: 50px 0;
+
+}
