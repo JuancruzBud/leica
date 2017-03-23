@@ -113,7 +113,7 @@ html {
   color:white;
   text-decoration: none;
   padding: 10px 12px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   border: none;
@@ -159,6 +159,11 @@ position: relative;
 top:-40px;
 }
 
+.guitarra_a:hover, .guitarra_b:hover{
+    transition: 0.4s;
+  transform: rotate(-5deg) scale(1.05);
+}
+
 .cont_guitarra_a{
 padding-left: 30px;
 }
@@ -169,6 +174,7 @@ padding-left: 30px;
 .cont_guitarra_b{
   width: 50%;
   float: right;
+  margin-right: -85px;
 }
 .guitarras ol{
   padding: 0;
